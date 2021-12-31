@@ -1,9 +1,9 @@
 import { PostItem } from './postItem'
 
-export const PostList = ({ list, removePost }) => {
+export const PostList = ({ list, removePost, title }) => {
   return (
     <div>
-      <h1>Posts</h1>
+      <h1>{title}</h1>
       <div>
         {list.length > 0 ? (
           list.map((item, index) => (

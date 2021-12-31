@@ -1,6 +1,7 @@
 import { MyButton } from './UI/button/myButton'
 
 export const PostItem = ({ post, index, removePost }) => {
+  console.log(post)
   return (
     <div>
       <div className="post">
